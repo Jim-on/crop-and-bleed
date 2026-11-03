@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "crop-and-bleed",
+      "runtimeExecutable": "/usr/local/bin/node",
+      "runtimeArgs": ["scripts/run-vite-on-free-port.mjs", "dev"],
+      "port": 5173
+    }
+  ]
+}

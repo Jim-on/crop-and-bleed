@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"type ToolcraftImageAsset\\\\b\" -B2 -A25 state/types.ts)",
+      "Bash(grep -n \"type ToolcraftMediaTransform\\\\b\" -A8 state/types.ts)",
+      "Bash(grep -n \"export type ToolcraftActionSchema\" -A25 schema/*.ts)"
+    ]
+  }
+}
